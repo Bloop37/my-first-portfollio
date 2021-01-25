@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+    <title>code newsletter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <h1>THE CODE REVIEW</h1>
+        </header>
+
+        <div class="form">
+        <form action="index.html" method="post">
+            <h2>SIGN UP FOR OUR NEWSLETTER</h2>
+            <p class="p1">Get the lastest news on how your code is doing in your inbox.</p>
+            
+            <hr>
+            <fieldset>
+            <legend>Contact Information</legend>
+        <div class='input'>    
+            <div class='label'>
+            <label for="full_name" >Full Name</label>
+            </div>
+            <input placeholder="required" class="textbox" type="text" id="full_name" name="full_name">
+        </div>
+        <div class='input'>
+            <div class='label'>
+            <label for="email">Email Address</label>
+            </div>
+            <input placeholder="required" class="textbox" type="email" id="email" name="email">
+        </div>
+        <div class='input'>
+            <div class='label'>
+            <label for="phone">Phone Number</label>
+            </div>
+            <input class="textbox" type="tel" id="phone" name="phone">
+        </div>
+        <div class='input'>
+            <div class='label'>
+            <label for="street">Street Address</label>
+            </div>
+            <input class="textbox" type="text" id="street" name="street">
+        </div>
+        <div class='input'>
+            <div class='label'>
+            <label for="city">City</label>
+            </div>
+            <input class="textbox" type="text" id="city" name="city">
+        </div>
+        <div class='input'>
+            <div class='label'>
+            <label for="state">States</label>
+            </div>
+            <div class='textbox'>
+            <select class="box" name="state" id="state">
+                <option value="oregon">Oregon</option>
+                <option value="colifornia">California</option>
+                <option value="washington">Washington</option>
+                <option value="montana">Montana</option>
+            </select>
+            </div>
+        </div>
+        <div class="input">
+            <div class='label'>
+            <label for="zip">Zip Number</label>
+            </div>
+            <input class="textbox" type="text" id="zip" name="zip">
+        </div>
+        </fieldset>
+
+            <hr>
+            <fieldset>
+            <legend>Newsletter</legend>
+            <p>Select the newsletters you would like to see.</p>
+            <input type="checkbox" id="html" name="news" value="html_news">
+            <label for="html">HTML News</label><br>
+            <input type="checkbox" id="css" name="news" value="css_news">
+            <label for="css">CSS News</label><br>
+            <input type="checkbox" id="javascript" name="news" value="javascript_news">
+            <label for="javascript">Javascript News</label><br>
+            <p>Newsletter Format</p>
+            <input type="radio" id="code" name="format" value="html">
+            <label for="code">HTML</label><br>
+            <input type="radio" id="text" name="format" value="plain_text">
+            <label for="text">Plain Text</label><br>
+
+            <label for="textbox">Other topics you'd like to hear about</label>
+            <textarea id="textbox" name="advice" rows="10" cols="60">
+            </textarea>
+            <input type="submit" id="submit" name="submit" value="Sign Up">
+            </fieldset>
+        </form>
+        <footer>Copyright: The Code Review</footer>
+        </div>
+    </body>
+</html>

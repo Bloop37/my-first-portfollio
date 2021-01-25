@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <form action="index.html" method="post">
+    <div class='input'>
+        <input placeholder="search" type="search" id="search" name="search">
+    </div>
+    </form>
+    <div class="grid">
+        <a class="item" href="photos/01.jpg" data-caption="This game is 'Bungie Studios'.  it take place in a future where a giant artifact called the traveller, a moon shaped machine with the power of reviving the dead into warriors known as guradians. you play as one of the guardians revived by the traveller, and must fight your way against 3 factions: the fallen, the hive and the vex.">
+            <img src="photos/thumbnails/01.jpg" alt="Destiny 2">
+        </a>
+        <a class="item" href="photos/02.jpg" data-caption="This game from 'Irrational Games' is the best narritave game in the FPS Genre. the game introduces the player character to the underwater city of Rapture, where the creativity of and artist can never be censored. Rapture fell into destruction and dissarray, and it's up to you to find the mystery of what happened to this city.">
+            <img src="photos/thumbnails/02.jpg" alt="Bioshock">
+        </a>
+        <a class="item" href="photos/03.jpg" data-caption="this game from 'Treyarch Software' rivived the Call of Duty Franchise from backlash from the call of duty fanbase. While the Campaign is extremly confusing, the multiplayer is a lot better than the previous titles. as a result a lot of call of duty players who thought that the franchise is getting old are playing this game worldwide." >
+            <img src="photos/thumbnails/03.jpg" alt="Call of Duty: Black Ops 3">
+        </a>
+        <a class="item" href="photos/04.jpg" data-caption="This Game by 'gearbox software' introduces us to the wasteland planet of Pandora and the many characters it has, including the main antagonist handsome Jack. He is one of the best villans in video game history, because he has a lot of personallity and humor. he is trying to find an anchient planet destroying creature to turn pandora into a peaceful planet, even if he will kill anyone in his way, while you play as a bounty hunter to find and stop handsome jack.">
+            <img src="photos/thumbnails/04.jpg" alt="Borderlands 2">
+        </a>
+        <a class="item" href="photos/05.jpg" data-caption="Developed by 'Madfinger games', this game is optimized for mobile phones. this game is about getting fame by completing missions and getting better guns. this game take place in a futuristic universe where bounty hunters complete missions for money and fame">
+            <img src="photos/thumbnails/05.jpg" alt="Shadowgun Legends">
+        </a>
+        <a class="item" href="photos/06.jpg" data-caption="This game developed by 'Konami Digital Entertainment' introduces players into the world of yu-gi-oh on mobile phone and pc. this game takes place in a virtual world wher players aim to duel for the title of world duel king. The game introduces players to the speed duel Format made for beginners and veterans alike.">
+            <img src="photos/thumbnails/06.jpg" alt="Yu-Gi-Oh! Duel Links">
+        </a>
+    </div>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/searchFilter.js"></script>
+    <script>
+        baguetteBox.run('.grid');
+        const search = new Filter('search', 'data-caption');
+    </script>
+</body>​
+</html>

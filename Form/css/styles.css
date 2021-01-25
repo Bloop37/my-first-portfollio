@@ -1,0 +1,73 @@
+*{
+    font-family: 'Grenze Gotisch', cursive;
+}
+.textbox:focus{
+    background-color: grey;
+}
+.textbox{
+width: 95%;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+textarea:focus{
+    background-color: grey;
+}
+textarea{
+    width: 100%;
+}
+[type="submit"]{
+    width: 100%;
+    background-color: teal;
+    color: white;
+}
+.p1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
+fieldset{
+    border: none;
+}
+@media(min-width: 768px){
+
+
+
+
+.input:after{
+    clear: both;
+    content:"";
+    display: table;
+}
+
+[type="text"]{
+    width: 50%;
+}
+.label{
+    float: left;
+    width: 25%;
+    margin: 5px;
+}
+.textbox{
+    float: left;
+    width: 70%;
+    margin: 5px;
+}
+
+.box{
+    float: left;
+    width: 100%;
+}
+.form{
+    width: 60%;
+    margin-left: 20%;
+}
+
+}
