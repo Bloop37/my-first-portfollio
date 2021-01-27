@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">   
-<head>
-    <title>My first portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   id="animate"
-   class="card"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -81,24 +71,3 @@
        id="path16" />
   </g>
 </svg>
-
-    <div class="sub">
-    <div class="icon"><a href="wheel_of_games/index.html">based on project 6, this is a wheel of fortune game made where you have to guess the letters of the gaming company in 5 tries. made in css, javascript and HTML.<img alt="game wheel" src="images/game.png"></a></div>
-    <div class="icon"><a href="Game_gallery/index.html">this is a photo gallery of my favorite games i played. it's based on the photo gallery on project 5. i built it using css, javascript and HTML. <img alt="camera" src="images/camera.jpg"></a></div>
-    <div class="icon"><a href="Sass_files/index.html"> based on project 4, this website contains a lot of code built in scss/sass. other than that, it's built using regular css and HTML.  <img alt="scss logo" src="images/sass.png"></a></div>
-    <div class="icon"><a href="Form/index.html">this website page contains a form to a newsletter with a lot of boxes to fill. based on project 3, it is built with HTML.<img alt="document icon" src="images/form.png"></a></div>
-    </div>
-<footer>
-    <div>
-        <p>Phone:<a href="038-438-045">038-438-0245</a></p>
-        <p>Email:<a href="BDzeguze@gmail.com">BDzeguze@gmail.com</a></p>
-        <p>Twitter: <a href="#magicbren">magicbren</a></p>
-        <p>facebook: <a href="FB:magicbren">magicbren</a></p>
-    </div>
-</footer>
-<div>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-<script src="js/index.js"></script>
-</div>
-</body>
-</html>
