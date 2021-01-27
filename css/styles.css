@@ -1,4 +1,23 @@
-
+@media(min-width: 320px){
+    .icon img{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .sub{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100%;
+        
+    }
+    
+    .icon{
+        padding: 5%;
+        border: 1px solid green;
+    
+    }
+}
+@media(min-width: 640px){
 .icon img{
     width: 100%;
     height: auto;
@@ -15,4 +34,5 @@
     padding: 5%;
     border: 1px solid green;
 
+}
 }
